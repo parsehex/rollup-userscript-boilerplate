@@ -43,3 +43,4 @@ You can use any properties you want. The code that generates the header is at th
 ## Notes
 
 - The generated header won't be formatted with any extra spaces between the tag and value.
+- The header is only generated once when running `watch`, so you'll have to restart the process for it to pick up any changes to `package.json`.
