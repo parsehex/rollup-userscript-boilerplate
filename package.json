@@ -1,0 +1,24 @@
+{
+	"name": "userscript-file-name",
+	"userscript": {
+		"name": "New Userscript",
+		"namespace": "http://tampermonkey.net/",
+		"version": "0.1",
+		"description": "try to take over the world!",
+		"author": "You",
+		"match": [
+			"http://*/*"
+		],
+		"grant": [
+			"none"
+		]
+	},
+	"scripts": {
+		"start": "rollup --config --watch",
+		"build": "rollup --config"
+	},
+	"devDependencies": {
+		"rollup": "^0.66.0",
+		"rollup-plugin-node-resolve": "^3.4.0"
+	}
+}
